@@ -8,7 +8,7 @@ h2,h3,h4{
 }
 p,a,button{
 	font-family: 'Inter', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 }
 @import url('https://fonts.cdnfonts.com/css/roslindale');
@@ -515,10 +515,12 @@ header .container-fluid{
 }
 
 
-
+.section-s{
+	margin:30px  10px;
+}
 
 .nav-sl {
-    left: 35%;
+    left: 38%;
     width: 100%;
     height: auto;
     background: rgb(255, 255, 255);
@@ -527,7 +529,7 @@ header .container-fluid{
     width: 100px;
     height: 100px;
     position: relative;
-    top: -128px;
+    top: -172px;
     background-image: url(scroll.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -646,4 +648,14 @@ header .container-fluid{
 	padding: 0 20px;
  }
 
+
+
+
+ .footer-container {
+
+    flex-wrap: wrap;
+}
+.footer-links ul {
+    padding: 20px 0;
+}
 }
