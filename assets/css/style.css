@@ -219,6 +219,10 @@ Carousel Section Styles: Carousel controls and layout
     display: flex;
     gap: 20px;
 }
+.carousel-content-pc{
+	display: flex;
+    gap: 20px;
+}
 
 .nav-sl {
     left: 45%;
@@ -371,6 +375,18 @@ Contact Section Styles: Contact form
     max-width: 1300px;
     margin: auto;
     margin-top: 113px;
+}
+.carousel-content{
+	position: relative;
+}
+.carousel-content h3{
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	color: #fff;
+}
+.carousel-content-mb{
+	display: none;
 }
 
 .contact-section p {
@@ -646,6 +662,17 @@ Responsive Styles: Adjustments for smaller screen sizes
         margin: 30px 0px;
 		padding: 20px;
     }
+
+	.carousel-content-pc{
+		display: none;
+		gap: 20px;
+	}
+
+
+	.carousel-content-mb{
+		display: flex;
+		gap: 20px;
+	}
 
     .nav-sl {
         left: 38%;
