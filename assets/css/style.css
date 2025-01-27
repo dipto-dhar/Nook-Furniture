@@ -608,6 +608,210 @@ Footer Section Styles: Footer layout, logo, social links, and policies
 /* ================================
 Responsive Styles: Adjustments for smaller screen sizes
 =================================== */
+
+
+
+
+
+@media (max-width: 1024px) {
+    * {
+        max-width: 100%;
+    }
+    .row {
+        margin: auto;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+	header {
+		height: 80px;
+		padding: 13px;
+	}
+    section {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .main-hero-section h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .main-hero-section {
+        padding: 60px 0 20px 0;
+    }
+
+    .main-hero-section .hero-banner .hero-center {
+        display: none;
+    }
+	.hero-banner .col-lg-6{
+		display: none;
+	}
+    .main-hero-section .hero-banner .hero-1 {
+        max-width: 100%;
+    }
+
+    .main-hero-section .hero-banner .hero-1 {
+        margin-top: 0px;
+    }
+
+    .main-hero-section .hero-banner .hero-center-img {
+        display: none;
+    }
+
+    .main-hero-section .hero-banner.row {
+        justify-content: space-around;
+    }
+
+    .quality-slider-section .item-content {
+        margin: 0 30px;
+    }
+
+    .category-section {
+        margin: 30px 0px;
+		padding: 20px;
+    }
+
+	.carousel-content-pc{
+		display: none;
+		gap: 20px;
+	}
+
+	.carousel-item.active{
+		display: flex;
+		justify-content: center;
+
+	}
+	.carousel-content-mb{
+		display: flex;
+		gap: 20px;
+	}
+
+    .nav-sl {
+		top: -254px;
+		left: 42%;
+    }
+
+    .w-25 {
+        width: 48% !important;
+    }
+
+    .popular-secion .tab-link {
+        padding: 10px 13px;
+        font-size: 18px;
+    }
+
+    .popular-secion .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .popular-secion .product-item {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .popular-secion .product-item img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .testimonial-section {
+        height: auto;
+        padding: 20px 0;
+        margin: 20px auto;
+        max-width: 1300px;
+    }
+
+    .testimonial-section .testimuni-img img {
+        width: 100%;
+        height: 423px;
+        object-fit: cover;
+        margin-top: 45px;
+    }
+
+    .testimonial-section.upper-content h2 {
+        font-size: 36px;
+        padding: 0px 0;
+    }
+
+    .testimonial-section.upper-content {
+        color: #fff;
+        padding: 0px 0;
+    }
+
+    .why-us-section {
+        background: #fafafa;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .why-us-section .info-div {
+        margin: auto;
+		justify-content: center;
+    }
+
+    .why-us-section .info-div img {
+        width: 80px;
+    }
+
+    .contact-section .row {
+        margin: auto;
+    }
+
+    .contact-section {
+        padding: 30px;
+		text-align: center;
+    }
+    .contact-section img {
+        width: 80%;
+    }
+
+    .contact-section p {
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .contact-section form .submit {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contact-section form input,
+    textarea {
+        margin: 10px 0;
+    }
+
+    .logo-div {
+        margin-top: 9px;
+    }
+
+    .container-section-5 {
+        padding: 0 20px;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .footer-links ul {
+        padding: 20px 0;
+    }
+
+    .footer-policies {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        align-items: flex-end;
+    }
+}
+
+
 @media (max-width: 768px) {
     * {
         max-width: 100%;
@@ -624,10 +828,13 @@ Responsive Styles: Adjustments for smaller screen sizes
         width: 100% !important;
         overflow: hidden;
     }
+	.section-title {
+		font-size: 35px;
+	}
 
     .main-hero-section h2 {
         text-align: center;
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .main-hero-section {
@@ -730,7 +937,7 @@ Responsive Styles: Adjustments for smaller screen sizes
         margin-top: 45px;
     }
 
-    .testimonial-section.upper-content h2 {
+    .testimonial-section .upper-content h2 {
         font-size: 36px;
         padding: 0px 0;
     }
@@ -806,3 +1013,4 @@ Responsive Styles: Adjustments for smaller screen sizes
         align-items: flex-end;
     }
 }
+
